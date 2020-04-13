@@ -1,9 +1,11 @@
 #include<stdio.h>
 int main()
 {
-  int choice=0;
+  int choice=0;     
+  //initialising variable for switch case
   printf("Food Choice \n Enter any number between 1 and 5 to be surprised! : ");
   scanf("%d",&choice);
+  //considerable thought has been put into the food choices. hope you enjoy !
   switch(choice)
   {
     case 1: printf("\nItem: Authentic Japanese Style Ramen\nCost: Rs.450"); break;
@@ -13,5 +15,6 @@ int main()
     case 5: printf("\nItem: Extremely Spicy Mapo Tofu\nCost: Rs.899"); break;
     default: printf("Invalid Choice.");
   }
+  //happy dining !
   return 0;
 }
