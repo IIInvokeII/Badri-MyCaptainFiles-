@@ -24,7 +24,7 @@ int main()
         printf("\n");
         for(j=0;j<3;j++)
         {
-            printf("%d  ",*p);
+            printf("%d\t",*p);
             p++;
         }
     }
