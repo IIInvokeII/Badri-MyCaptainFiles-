@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//program to read contents from a file and print in reverse order, and copying contents from one file to another
 int main()
 {
     char ch[30]="",input[30]="",ch2[30]="";     //declaring character arrays
